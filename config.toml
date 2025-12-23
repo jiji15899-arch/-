@@ -1,0 +1,7 @@
+[params]
+  defaultTheme = "light"
+  disableThemeToggle = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowPostNavLinks = true
+  comments = false
