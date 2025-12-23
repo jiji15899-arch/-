@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  {{- partial "head.html" . -}}
+  {{- partial "head-custom.html" . -}}
+</head>
+<body class="list" id="top">
+  {{- partial "header.html" . -}}
+  <main class="main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{- partial "footer.html" . -}}
+  {{- partial "footer-custom.html" . -}}
+</body>
+</html>
